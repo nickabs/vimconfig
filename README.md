@@ -5,6 +5,7 @@ note the plugins are installed as git submodules.
 
 ```bash
 git clone --recurse-submodules git@github.com:nickabs/vimconfig.git ~/.vim
+ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
 # adding/updating plugins 
@@ -20,11 +21,14 @@ enable the optional plugin in .vimrc
 ```
 
 --recurse-submodules (above) is equivalent to:
+```bash
 git submodule init;git submodule update
+```
 ...and gets the plugin subdirectories in the state orginally commmitted
 
-to get the latest version of the plugins
+to get the latest version of the plugins:
 ```bash
-git submodule update --remote —merge
+git submodule update --remote
 ```
+this is equivalent to running fetch and  merge origin/master from each plugin directory
 
