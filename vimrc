@@ -73,6 +73,9 @@ command! FixWhitespace :%s/\s\+$//e
 
 :packadd! vim-fugitive
 :packadd! vim-go
+:packadd! lightline
+:packadd! vim-gitgutter
+:packadd! molokai
 
 "*****************************************************************************
 "" Mappings

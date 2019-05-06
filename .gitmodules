@@ -4,3 +4,12 @@
 [submodule "pack/plugins/opt/vim-go"]
 	path = pack/plugins/opt/vim-go
 	url = https://github.com/fatih/vim-go.git
+[submodule "pack/plugins/opt/molokai"]
+	path = pack/plugins/opt/molokai
+	url = https://github.com/tomasr/molokai.git
+[submodule "pack/plugins/opt/lightline"]
+	path = pack/plugins/opt/lightline
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "pack/plugins/opt/vim-gitgutter"]
+	path = pack/plugins/opt/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
