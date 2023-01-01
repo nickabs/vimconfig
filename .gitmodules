@@ -13,3 +13,6 @@
 [submodule "pack/plugins/opt/vim-gitgutter"]
 	path = pack/plugins/opt/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/plugins/start/vim-gO"]
+	path = pack/plugins/start/vim-gO
+	url = https://github.com/fatih/vim-go
